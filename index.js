@@ -51,4 +51,10 @@ const loadProd = function () {
     });
 };
 
+const addProd = document.getElementById("add");
+
+addProd.addEventListener("click", function () {
+  window.location.href = `backoffice.html`;
+});
+
 loadProd();
