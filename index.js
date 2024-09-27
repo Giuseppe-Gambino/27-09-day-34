@@ -21,6 +21,9 @@ const loadProd = function () {
       console.log(rowp);
 
       products.forEach((prod) => {
+        const spin = document.getElementById("spinner");
+        spin.classList.add("d-none");
+
         const colCard = document.createElement("div");
         colCard.classList.add("col");
         colCard.style = "cursor: pointer";
